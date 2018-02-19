@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link href="../CSS/Style.css" rel="stylesheet">
+    <meta charset ="utf-8">
+    <title>Cours de Web: css</title>
+
+</head>
+<body>
+   
+   
+   <header>
+
+    <div class="Warper">
+        <h1>CSS<span class="Orange"> 3</span></h1>
+
+        <nav>
+            <ul>
+               
+                <li><a href="#attrib"title="Déscription du css"> déscription du css </a></li>
+                <li><a href="#couleur"title="Vers couleurs et taille" > La couleurs et la taille </a></li>
+                 <li><a href="#liste"title="Vers les propriétes" > Les propriétés </a></li>
+                <li><a href="Index.html" title="Vers l'acceuil"> Acceuil </a></li>
+                
+
+            </ul>
+
+
+        </nav>
+        
+    </div>
+
+<img src="../Image/CSS_Logo_550px.png" alt="logocss">
+
+<section id="introcss">
+    
+    <div class="genral">
+
+<h4>Comment utilisé du css :</h4>
+        <p>créer un fichier css Dans le fichier html écrire link href="[lien de la page css]" rel="stylesheet" <br> Dans le fichier css écrire:
+selector (ce que l’on sélectionne dans l’HTML (exemple: p))
+{<br>
+    property:(ce que l’on veut modifier (exemple: color)) value; (la valeur que l’on applique (exemple red)
+}<br>
+
+            
+</p>
+        
+    </div>
+    
+</section>
+
+<section id="couleur">
+
+<h4>La couleur et la taille</h4>
+
+Couleur:<br>
+
+p{<br>
+color: red<br>
+}<br>
+
+OU<br>
+
+p{<br>
+    color: rgb(255,0,0);<br>
+}<br>
+
+OU<br>
+
+p{<br>
+    color:  #FF7F50; <br>
+}<br>
+
+
+Taille:<br>
+
+
+p{<br>
+    font-size: 10px;<br>
+}<br>
+
+OU<br>
+
+p{<br>
+     font-size: 3em;<br>
+}
+<p style="color: red">Alors tous les paragraphe "p" deviendront rouge</p>
+
+p{<br>
+    font-size: 10px;<br>
+}<br>
+
+OU<br>
+
+p{<br>
+     font-size: 3em;<br>
+}<br>
+
+<p>Alors tous les paragraphe "p" feront 10 px</p>
+    </section>
+    <section id="liste">
+    
+                <h4 >Liste des propriétés : </h4>
+                <div id="ldb">
+    <div>
+     <table class="tab">
+                      <caption>Les propriété  : </caption>
+                        <tr class="Orange">
+                            <th>Propriété</th>
+                            <th>Valeurs possible</th>
+                            <th>Description</th>            
+                        <tr>
+                            <th> font-family </th>
+                            <th> serif, sans-serif </th> 
+                            <th>Nom de police</th> 
+                        </tr>
+                        <tr>
+                            <th> font-size </th>
+                            <th> 25,30,2 </th> 
+                            <th> Champ de formulaire </th> 
+                        </tr>
+                        
+                        <tr>
+                            <th> text-decoration </th>
+                            <th> underline, overline, line-through, blink, none </th>
+                            <th>
+                                Soulignement, ligne au-dessus, barré ou clignotant
+                            </th> 
+                        </tr>
+                              <tr>
+                            <th> text-align </th>
+                            <th>  top, bottom</th>
+                            <th>
+                               Alignement verticale
+                            </th> 
+                        </tr>
+                        
+                        
+                              <tr>
+                            <th> color </th>
+                            <th>  nom, rgb(rouge,vert,bleu), rgba(rouge,vert,bleu,transparence), #CF1A20...th>
+                            <th>
+                              Couleur du texte
+                            </th> 
+                        </tr>
+                        
+                                   <tr>
+                            <th> background-color </th>
+                            <th> Identique à color
+                            <th>
+                             	Couleur de fond
+                            </th> 
+                        </tr>
+                        
+                    </table>
+    
+        </div>
+       </section>
+       
+       </div>
+
+</header>
+    </body>
+</html>

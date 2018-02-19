@@ -1,0 +1,251 @@
+/*Général*/
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    /*Mise a  de la marge et du pading de toute la page */
+    
+}
+
+body{
+    
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    
+}
+
+
+
+a{
+    
+    text-decoration: none;
+    color: #444;
+}
+
+
+h1{
+    
+    font-family: serif;
+    font-size: 45px;
+    color: #444444;
+    margin-left: 10px
+    
+}
+
+h2{
+    
+    color: 444444;
+    font-size: 55px;
+    
+}
+
+h4{
+    
+    font-size: 24px;
+    color: #444444;
+}
+
+p{
+    
+    line-height: 24px;
+    color: #777777
+    
+}
+
+ul{
+    
+    list-style: none;
+    
+}
+
+
+.general{
+    
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+    
+}
+
+.Orange{
+    
+    color: #ff7a00;
+    
+}
+
+/* HAEDER */
+
+header{
+    
+    height: 120px;
+    
+}
+
+
+header h1{
+    
+    float: left;
+    margin-top: 32px;
+    
+}
+
+header nav{
+    
+    float: right;
+     margin-top: 50px;
+    
+}
+
+header nav ul li{
+    
+    float: left;
+    display: inline-block;
+    
+}
+
+header nav ul li a {
+ 
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 20px;
+    
+}
+    
+
+/*Main Image*/
+
+#Main_Image{
+    
+    height: 580px;
+    background: url(../Image/main.jpg ) no-repeat center;
+    
+}
+
+#Main_Image2{
+    
+        
+    height: 580px;
+    background: url(../Image/html-1695519_1280.png) center;
+    
+}
+
+
+
+#Main_Image h2{
+    
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 150px 0 40px 0;
+    margin-bottom: 20px;
+    
+}
+
+
+.button1{
+    
+    display: block;
+    width: 120px;
+    height: 50px;
+    background-color: #ff7a00;
+    color: white;
+    font-size: 20px;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 3px;
+    
+    
+}
+
+/*pres*/
+#pres ul{
+    margin: 80px 0px;
+}
+
+#pres ul li{
+    width: 300px;
+    float: left;
+    padding-top: 140px;
+    text-align: center;
+    margin-left: 70px;
+}
+
+#pres h4{
+    
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+
+
+#img1{
+    background: url("../Image/HTML5_Logo_550px.png") no-repeat top center;
+    
+}
+
+#img2{
+    background: url("../Image/CSS_Logo_550px.png") no-repeat top center;
+
+}
+
+#img3{
+     background: url("../Image/JS_Logo_550px.png") no-repeat top center;
+    
+}
+
+/*fichier Cours html et cours CSS */
+
+
+.tab{
+    
+    margin: auto;
+    border: 1px solid black;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+caption{
+    
+    background-color: #ff7a00;
+    font-family: serif, sans-serif;
+    
+}
+
+
+th,tr,caption, tab{
+    
+   
+    border: 1px solid black;
+    line-height: 24px;
+    color: 777;
+    
+}
+
+
+#attrib{
+
+    margin-top: 255px
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
