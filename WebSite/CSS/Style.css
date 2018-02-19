@@ -4,7 +4,7 @@
     
     margin: 0;
     padding: 0;
-    /*Mise a 0 de la marge et du pading de toute la page */
+    /*Mise a 0 de la marge et du pading de tout le site */
     
 }
 
@@ -113,16 +113,16 @@ header nav ul li a {
 }
     
 
-/*Main Image*/
+/*Main Image(Image principale de la page index et de la page cours html*/
 
-#Main_Image{
+#Main_Image{/*Image de l'index*/
     
     height: 580px;
     background: url(../Image/main.jpg ) no-repeat center;
     
 }
 
-#Main_Image2{
+#Main_Image2{/*Image de la page sur le html*/
     
         
     height: 580px;
@@ -132,7 +132,7 @@ header nav ul li a {
 
 
 
-#Main_Image h2{
+#Main_Image h2{/*Titre "mes cours de programation web" sur la page index*/
     
     font-weight: normal;
     text-transform: uppercase;
@@ -143,7 +143,7 @@ header nav ul li a {
 }
 
 
-.button1{
+.button1{/*Bouton pour retourner en haut de page*/
     
     display: block;
     width: 120px;
@@ -159,7 +159,7 @@ header nav ul li a {
     
 }
 
-/*pres*/
+/*pres (présentation des 3 langage) */
 #pres ul{
     margin: 80px 0px;
 }
